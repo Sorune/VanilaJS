@@ -3,10 +3,20 @@
 <body>
     <h2 id="clock">00:00:00</h2>
     <form class="hidden" id="login-form">
-        <fieldset style="width: 150;">
+        <fieldset style="width: 150">
             <legend>login</legend>
-                ID : <input id="id" type = "text" name = "id" /><br></br>
-                PASS : <input id="pass" type="password" name = "pass" /><br></br>
+                ID : <input
+                    required
+                    maxlength="15"
+                    id="id"
+                    type = "text"
+                    name = "id" /><br></br>
+                PASS : <input
+                required
+                maxlength="15"
+                id="pass"
+                type="password"
+                name = "pass" /><br></br>
                 <input id = "button" type="button">
         </fieldset>
     </form>
